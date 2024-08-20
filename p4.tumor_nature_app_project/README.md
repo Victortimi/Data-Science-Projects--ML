@@ -1,22 +1,5 @@
 # Tumor Nature Prediction App
 
-## Project Structure
-
-.
-├── api/
-│   ├── api_main.py
-│   ├── model.py
-│   └── database.py
-├── ui/
-│   ├── Home.py
-│   └── PastPredictions.py
-├── data/
-│   ├── sample_input.csv
-│   └── predictions.db
-├── requirements.txt
-└── README.md
-
-
 ## Overview
 
 This application predicts the nature of a tumor (benign or malignant) based on specific input features. Users can enter the mean radius, mean perimeter, mean texture, and mean area of the tumor through a Streamlit UI. The app supports both single-shot queries and bulk queries via CSV upload. The data is processed by a FastAPI backend, which utilizes a trained logistic regression model to make predictions. All inputs and outputs are stored in a PostgreSQL server, and past predictions can be viewed on a dedicated page within the UI.
@@ -44,3 +27,19 @@ You can install these dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
+
+## Project Structure
+.
+├── api/
+│   ├── api_main.py
+│   ├── model.py
+│   └── database.py
+├── ui/
+│   ├── Home.py
+│   └── PastPredictions.py
+├── data/
+│   ├── sample_input.csv
+│   └── predictions.db
+├── requirements.txt
+└── README.md
+
