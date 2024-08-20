@@ -1,0 +1,6 @@
+- `pandas==2.2.2`
+- `spotipy==2.24.0`
+- `sqlite==3.46.1`
+- `os`
+- `requests==2.32.3`
+- `pydrive==1.2.1`
